@@ -1,0 +1,89 @@
+#left {
+    float: left;
+    position: relative;
+    display: flex;
+    background-image: url(./resources/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100vh;
+}
+
+#logo img {
+    margin-top: 50%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo h1 {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#right {
+    font-family: 'Anek', sans-serif;
+    float: right;
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(255, 251, 228);
+    text-align: center;
+}
+
+#right>div {
+    margin-top: 25vh;
+}
+
+#form {
+    margin: 10px;
+    width: 60vw;
+    font-size: 1rem;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 7%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    
+}
+
+input, label {
+    margin-left: 100px;
+}
+
+form {
+    background-color: white; 
+}
+
+label {
+    position: relative;
+    width: 15rem;
+    margin-top: 15px;
+}
+
+#sign-title {
+    text-align: left;
+    margin-left: 50px;
+}
+
+button {
+    font-family: 'Anek', sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(136, 136, 233);
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: black;
+}
+
+
+
